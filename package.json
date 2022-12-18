@@ -2,15 +2,17 @@
   "name": "internettechnologiescw2",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
+    "app": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LauchlynDowns/InternetTechnologiesCW2.git"
   },
-  "author": "",
+  "author": "Lauchlyn Downs",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/LauchlynDowns/InternetTechnologiesCW2/issues"
