@@ -88,7 +88,7 @@ const Addevent = (props) => {
                 />
               </div>
 
-              <div className='form-group'>
+              {/* <div className='form-group'>
               <p className='form-text'>Event Date</p>
                 <input
                   type='text'
@@ -98,7 +98,7 @@ const Addevent = (props) => {
                   value={event.event_date}
                   onChange={onChange}
                 />
-              </div>
+              </div> */}
 
 
 

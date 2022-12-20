@@ -14,7 +14,7 @@ display: flex;
 justify-content: center;
 padding:1vw;
 margin: 1vw;
-height: 20vh;
+height: 150%;
 background-color: #D9D9D9;
 }
 
@@ -26,7 +26,6 @@ background-color: #D9D9D9;
 .cardorganiser{
   display: flex;
   flex-direction: row;
-  height: 20vh;
 }
 .eventimage{
  max-width: 30vw;
@@ -35,6 +34,7 @@ background-color: #D9D9D9;
 
 .gray{
   background-color: #292929;
+
 }
 
 @media screen and (min-width: 601px) {
@@ -94,7 +94,7 @@ opacity: 80%;
 .addevent-container{
   background-color: #1E1E1E;
   width: 100%;
-   height: 100vh;
+   /* height: 100vh; */
   display: flex;
   flex-direction: column;
 }
@@ -130,34 +130,6 @@ opacity: 80%;
   width: 15%;
 }
 
-@media screen and (max-width: 600px) {
-  .title{
-    font-size: 7vw;
-  }
-  
-  .textdescription{
-    font-size: 4vw;
-    
-  }
-  .afftext{
-    font-size: 15vw;
-  }
-  .showcasetext{
-    font-size: 10vw;
-    margin-top: 20vh;
-  }
-  .homepage-section-header{
-    font-size: 6vw;
-  }
-  .homepage-inner-area{
-    flex-direction: column;
-    
-  }
-  .filmimg{
-    width: 100%;
-  }
- 
-}
 
 
 .addevent-header-text{
@@ -192,4 +164,57 @@ opacity: 80%;
   margin-right: auto;
   text-align: center;
   font-size: 100%;
+}
+.mapimage{
+  width: 100%;
+}
+.locationpage-info-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.mapsinfopanel{
+  padding: 2vw;
+  font-size: 200%;
+}
+
+.lightgray{
+  background-color: #D9D9D9;
+}
+.white{
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .title{
+    font-size: 7vw;
+  }
+  
+  .textdescription{
+    font-size: 4vw;
+    
+  }
+  .afftext{
+    font-size: 15vw;
+  }
+  .showcasetext{
+    font-size: 10vw;
+    margin-top: 20vh;
+  }
+  .homepage-section-header{
+    font-size: 6vw;
+  }
+  .homepage-inner-area{
+    flex-direction: column;
+    
+  }
+  .filmimg{
+    width: 100%;
+  }
+  .locationpage-info-container{
+    flex-direction: column;
+  }
+ 
 }
