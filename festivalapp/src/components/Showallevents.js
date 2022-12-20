@@ -24,10 +24,10 @@ function Showallevents() {
       : events.map((event, k) => <Eventcard event={event} key={k} />);
 
   return (
-  
+  <div className='addevent-container'>
         
         <div className='list'>{eventlist}</div>
-     
+        </div>
   );
 }
 
