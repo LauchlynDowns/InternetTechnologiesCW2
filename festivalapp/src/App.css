@@ -1,4 +1,7 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Radley:ital@0;1&display=swap');
 .list {
 display: flex;
 flex-direction: column;
@@ -43,19 +46,100 @@ background-color: #D9D9D9;
   }
 }
 
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+
+.footer{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  width: 100%;
+  background-color: #E9FDD6;
+  height: calc(100% - 60px); padding-bottom:60px;
+
+}
+  
+.hero{
+  width: 100%;
+  height: 100vh;
+  font-family: 'Baloo 2', cursive;
+font-weight: 700;
+color: white;
+background-image: url("https://images.pexels.com/photos/2608519/pexels-photo-2608519.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+background-repeat: no-repeat;
+background-size:cover;
+opacity: 80%;
+}
+
+.afftext{
+  font-size: 900%;
+  padding: 1vw;
+}
+.showcasetext{
+  font-size: 400%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 5%;
+  font-style: italic;
+  font-family: 'Radley', serif;
+}
+
+
+.homepage-container{
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.homepage-section{
+  background-color: #8B743A;
+  margin: 1vh;
+  padding: 1vh;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 150%;
+}
+.homepage-section-header{
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Radley', serif;
+  color: white;
+  font-size: 250%;
+}
+
+.homepage-inner-area{
+  display: flex;
+  justify-content: space-evenly;
+}
+.filmimg{
+  width: 35%;
+}
 @media screen and (max-width: 600px) {
   .title{
     font-size: 7vw;
   }
+  
   .textdescription{
     font-size: 4vw;
+    
   }
+  .afftext{
+    font-size: 15vw;
+  }
+  .showcasetext{
+    font-size: 10vw;
+    margin-top: 20vh;
+  }
+  .homepage-section-header{
+    font-size: 6vw;
+  }
+  .homepage-inner-area{
+    flex-direction: column;
+    
+  }
+  .filmimg{
+    width: 100%;
+  }
+ 
 }
-.footer{
-  bottom: 0;
-  position: absolute;
-  width: 100%;
-  background-color: #E9FDD6;
-}
-  

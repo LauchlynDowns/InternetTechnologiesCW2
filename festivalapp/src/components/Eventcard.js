@@ -11,7 +11,7 @@ const Eventcard = (props) => {
         <div className='cardorganiser'>
           <div className='textarea'>
             <Card.Title className='title'>Title:   {event.title}</Card.Title>
-            <Card.Subtitle className="text-muted">Producer:   {event.producer}</Card.Subtitle>
+            <Card.Subtitle className="text-muted textdescription">Producer:   {event.producer}</Card.Subtitle>
             <Card.Body className="textdescription"> Description:   {event.description}</Card.Body>
             
           </div>
