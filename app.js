@@ -19,10 +19,13 @@ connectDB();
 app.use(cors({ origin: true, credentials: true }));
 app.use(express.json({ extended: false }));
 
-app.get('*', async (req, res) =>{
-    res.sendFile(path.join(__dirname, 'festivalapp', 'build', 'index.html'));
+// app.get('*', async (req, res) =>{
+//     res.sendFile(path.join(__dirname, 'festivalapp', 'build', 'index.html'));
 
-});
+// });
+// app.get('/', async (req, res) =>{
+//     res.sendFile(path.join(__dirname, 'festivalapp', 'build', ''));
+// });
 
 
 app.use('/api/events', events);
